@@ -61,7 +61,7 @@ nav p {
 article {
     color: #FFF;
 }
-img {
+img {   
     max-width: 40vw;
     max-height: 60vh;
     display: block;
@@ -69,7 +69,6 @@ img {
 #flex-container-a {
     height: 60vh;
     display: flex;
-    text-align: left;
     background-color: #010101;
 }
 #flex-container-b {
