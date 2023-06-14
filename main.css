@@ -1,0 +1,97 @@
+html, body, nav, article, a, p, ul, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+#bg-main {
+    background: #3B200B url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) no-repeat center;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px #FFF solid;
+    padding: 65px 0 5px 0;
+    margin: 0 70px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #1b539c;
+}
+nav a:active {
+    text-decoration: underline;
+    color: #17e9f4;
+}
+nav li {
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+}
+#intro-container {
+    height: 800px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+#title h1{
+    font-size: 125px;
+    padding: 15px 75px 40px;
+    border-bottom: 2px #FFF solid;
+}
+#intro-message h2{
+    font-size: 68px;
+    font-weight: 300;
+    margin: 20px 0 50px 0;
+}
+article {
+    color: #FFF;
+}
+img {
+    max-width: 40vw;
+    max-height: 60vh;
+    display: block;
+}
+#flex-container-a {
+    height: 60vh;
+    display: flex;
+    text-align: left;
+    background-color: #010101;
+}
+#flex-container-b {
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #121212;
+}
+#flex-container-c {
+    height: 60vh;
+    display: flex;
+    background-color: #212121;
+}
+.info-text {
+    padding: 100px;
+    align-self: center;
+}
+.info-text h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.info-text p {
+    font-size: 30px;
+    font-weight: 200;
+}
